@@ -24,9 +24,7 @@ body{
     justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
-    /*DEBUG*/
-    background-color: orange;
-    border: 2px black dashed;
+    color: white;
 }
 
 .ul_top_nav{
@@ -36,35 +34,51 @@ body{
     flex-wrap: wrap;
 }
 
-.text{
-    margin: 10px; 
+.top_text{
+    margin: 20px; 
 }
 
 /*header*/
 
 header{
-    padding: 10px;
-    /*DEBUG*/
-    background-color:aqua;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
 }
 
 .container_top{
-    height: 500px;
-    margin: 10px, 0px, 0px, 5px;
+    min-height: 450px;
     margin-top: 10px;
     display: flex;
     justify-content: center;
-    /*DEBUG*/
-    background-color: rgb(1, 1, 161);
+    align-items: flex-start;
 }
 
 .box{
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
     flex-basis: 60%;
-    height: 400px;
-    /*DEBUG*/
-    background-color: palevioletred;
-    border: 2px black dashed;
+    max-height: 300px;
+    color: white;
+}
+
+#title{
+    align-self: center;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#description{
+padding: 30px 200px 20px 200px;
+font-size: 19px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
 }
 
 /*Main*/
@@ -74,7 +88,7 @@ header{
     margin: auto;
     display: flex;
     min-height: 500px;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .box_main{
@@ -103,17 +117,35 @@ header{
     height: 500px;
     flex-basis: 65%;
     /*DEBUG*/
-    border: 2px dashed black;
-    background-color: rgb(45, 94, 226);
+    background-image: url(img/item1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .secondary{
     height: 500px;
     flex-basis: 35%;
-    /*DEBUG*/
-    border: 1px dashed black;
-    border-left: 2px dashed black;
-    background-color: pink;
+    display: flex;
+    flex-direction: column;
+}
+
+#title_main{
+    margin-top: 30px;
+    font-size: 45px;
+}
+
+#description_main{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.o2{
+    background-image: url(img/item2.svg);
+    flex-basis: 55%;
+}
+
+.o3{
+    background-image: url(img/item3.svg);
 }
 
 /*container  gande verde*/
@@ -127,12 +159,24 @@ header{
 }
 
 .big_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: auto;
     width: 80%;
-    height: 800px;
-    /*DEBUG*/
-    background-color: green;
-    border: 2px dashed black;
+    height: 1200px;
+}
+
+#big_image{
+    width: 100%;
+    height: 80%;
+}
+
+#ready{
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
 }
 
 /*footer*/
