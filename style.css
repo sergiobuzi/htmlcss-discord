@@ -20,7 +20,7 @@ body{
 .top_nav{
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 70%;
     justify-content: space-between;
     margin: auto;
     flex-wrap: wrap;
@@ -51,6 +51,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .box{
@@ -62,6 +63,7 @@ header{
     max-height: 300px;
     color: white;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 #title{
@@ -73,51 +75,55 @@ header{
 #description{
 margin: 30px;
 font-size: 19x;
+line-height: 30px;
 }
 
 .buttons{
     display: flex;
     justify-content: center;
     gap: 50px;
-
+    flex-wrap: wrap;
 }
 
 /*Main*/
 
 .container_main{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     min-height: 500px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .box_main{
     background-color: rgb(255, 255, 255);
     display: flex;
     height: 600px;
+    flex-wrap: wrap;
 }
 
 .box_main_gray{
     background-color: rgb(204, 204, 204);
     display: flex;
     height: 600px;
+    flex-wrap: wrap;
 }
 
 .container_main_gray{
-    width: 80%;
+    width: 70%;
     margin: auto;
     display: flex;
     min-height: 500px;
     flex-direction: row-reverse;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .primary{
     height: 500px;
     flex-basis: 65%;
-    /*DEBUG*/
     background-image: url(img/item1.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -128,6 +134,7 @@ font-size: 19x;
     flex-basis: 35%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #title_main{
@@ -139,13 +146,14 @@ font-size: 19x;
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+    line-height: 30px;
 }
-.o2{
+.o2{ /*immagine centrale del main */
     background-image: url(img/item2.svg);
     flex-basis: 55%;
 }
 
-.o3{
+.o3{  /*immagine piu basssa del main */
     background-image: url(img/item3.svg);
 }
 
@@ -157,14 +165,16 @@ font-size: 19x;
     height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
+    flex-wrap: wrap;
 }
 
 .big_box{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     margin: auto;
-    width: 80%;
+    width: 70%;
     max-height: 1300px;
 }
 
@@ -188,15 +198,18 @@ footer{
     padding-top: 10px;
 }
 
+/*elementi del top footer*/
+
 .top_footer{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 10px;
     border-bottom: solid white 1px;
 }
 
-.collegamenti{
+.collegamenti{ 
     width: calc(100% / 6 * 2);
     min-height: 500px;
     list-style-type: none;
@@ -204,7 +217,7 @@ footer{
     padding-top: 45px;
 }
 
-#flag{
+#flag{ 
    width: 25px; 
 }
 
@@ -215,14 +228,13 @@ footer{
 
 .bottom_items, .italiano, .fa-brands{
     color: white;
-    padding: 5px;
+    line-height: 30px;
 }
 .prodotto, .compagnia, .risorse, .norme{
     width: calc(100% / 6);
     max-height: 500px;
     list-style-type: none;
     color: rgb(109, 78, 221);
-    font-weight: bold;
     padding-top: 45px;
 }
 
@@ -231,17 +243,18 @@ footer{
 
 }
 
-
+/*bottom footer*/
 .bottom_footer{
     margin-top: 10px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
 }
 
-/*buttons*/
+/*bottoni tutta pagina*/
 
 #download{
     padding: 15px;
