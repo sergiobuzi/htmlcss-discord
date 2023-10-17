@@ -104,7 +104,7 @@ line-height: 30px;
 }
 
 .box_main_gray{
-    background-color: rgb(204, 204, 204);
+    background-color: #f6f7f7;
     display: flex;
     height: 600px;
     flex-wrap: wrap;
@@ -118,7 +118,7 @@ line-height: 30px;
     flex-direction: row-reverse;
     align-items: center;
     flex-wrap: wrap;
-    
+    position: relative;
 }
 
 .primary{
@@ -147,6 +147,7 @@ line-height: 30px;
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
+    max-width: 929px;
 }
 .o2{ /*immagine centrale del main */
     background-image: url(img/item2.svg);
@@ -160,7 +161,7 @@ line-height: 30px;
 /*container  gande verde*/
 
 .container_bottom{
-    background-color:rgb(204, 204, 204);
+    background-color:#f6f7f7;
     display: flex;
     height: auto;
     padding-top: 30px;
@@ -192,7 +193,7 @@ line-height: 30px;
 /*footer*/
 
 footer{
-    background-color: rgb(37, 37, 37);
+    background-color: #23262b;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 10px;
@@ -234,13 +235,12 @@ footer{
     width: calc(100% / 6);
     max-height: 500px;
     list-style-type: none;
-    color: rgb(109, 78, 221);
+    color: #7289da;
     padding-top: 45px;
 }
 
 .collegamenti{
-    color: rgb(109, 78, 221);
-
+    color: #7289da;
 }
 
 /*bottom footer*/
@@ -260,6 +260,7 @@ footer{
     padding: 15px;
     color: black;
     background-color: white;
+    border: white 1px;
     border-radius: 50px;
     font-weight: bold;
 }
@@ -269,6 +270,7 @@ footer{
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     border-radius: 50px;
+    border: black 1px;
     font-weight: bold;
 }
 .login{
@@ -276,12 +278,15 @@ footer{
     color: black;
     background-color: white;
     border-radius: 50px;
+    border: 1px white;
     font-weight: bold;
 }
 
 .signin{
     padding: 15px;
     color: rgb(255, 255, 255);
-    background-color: rgb(100, 85, 233);
+    background-color: #8fa0e1;
+    border: 1px #8fa0e1 ;
     border-radius: 50px;
+    font-weight: bold;
 }
