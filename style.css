@@ -1,0 +1,182 @@
+/*Stili  generali della pagina*/
+
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 20px;
+    font-family: Whitney, ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+/*nav*/
+
+.top_nav{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    /*DEBUG*/
+    background-color: orange;
+    border: 2px black dashed;
+}
+
+.ul_top_nav{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.text{
+    margin: 10px; 
+}
+
+/*header*/
+
+header{
+    padding: 10px;
+    /*DEBUG*/
+    background-color:aqua;
+}
+
+.container_top{
+    height: 500px;
+    margin: 10px, 0px, 0px, 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    /*DEBUG*/
+    background-color: rgb(1, 1, 161);
+}
+
+.box{
+    margin: auto;
+    flex-basis: 60%;
+    height: 400px;
+    /*DEBUG*/
+    background-color: palevioletred;
+    border: 2px black dashed;
+}
+
+/*Main*/
+
+.container_main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+}
+
+.box_main{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 600px;
+}
+
+.box_main_gray{
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    height: 600px;
+}
+
+.container_main_gray{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    min-height: 500px;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+}
+
+.primary{
+    height: 500px;
+    flex-basis: 65%;
+    /*DEBUG*/
+    border: 2px dashed black;
+    background-color: rgb(45, 94, 226);
+}
+
+.secondary{
+    height: 500px;
+    flex-basis: 35%;
+    /*DEBUG*/
+    border: 1px dashed black;
+    border-left: 2px dashed black;
+    background-color: pink;
+}
+
+/*container  gande verde*/
+
+.container_bottom{
+    background-color:rgb(204, 204, 204);
+    display: flex;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.big_box{
+    margin: auto;
+    width: 80%;
+    height: 800px;
+    /*DEBUG*/
+    background-color: green;
+    border: 2px dashed black;
+}
+
+/*footer*/
+
+footer{
+    background-color: rgb(37, 37, 37);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+.top_footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    border-bottom: solid white 1px;
+}
+
+.collegamenti{
+    width: calc(100% / 6 * 2);
+    min-height: 500px;
+    list-style-type: none;
+    /*DEBUG*/
+    background-color: salmon;
+    border: 2px dashed black;
+}
+
+.prodotto, .compagnia, .risorse, .norme{
+    width: calc(100% / 6);
+    min-height: 500px;
+    list-style-type: none;
+    /*DEBUG*/
+    background-color: aquamarine;
+    border: 1px dashed rgb(255, 255, 255);
+}
+
+.bottom_footer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    /*DEBUG*/
+    background-color: aquamarine;
+}
