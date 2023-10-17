@@ -35,7 +35,7 @@ body{
 }
 
 .top_text{
-    margin: 20px; 
+   margin: 20px; 
 }
 
 /*header*/
@@ -61,6 +61,7 @@ header{
     flex-basis: 60%;
     max-height: 300px;
     color: white;
+    text-align: center;
 }
 
 #title{
@@ -70,8 +71,8 @@ header{
 }
 
 #description{
-padding: 30px 200px 20px 200px;
-font-size: 19px;
+margin: 30px;
+font-size: 19x;
 }
 
 .buttons{
@@ -164,12 +165,11 @@ font-size: 19px;
     align-items: center;
     margin: auto;
     width: 80%;
-    height: 1200px;
+    max-height: 1300px;
 }
 
 #big_image{
     width: 100%;
-    height: 80%;
 }
 
 #ready{
@@ -200,19 +200,37 @@ footer{
     width: calc(100% / 6 * 2);
     min-height: 500px;
     list-style-type: none;
-    /*DEBUG*/
-    background-color: salmon;
-    border: 2px dashed black;
+    color: white;
+    padding-top: 45px;
 }
 
+#flag{
+   width: 25px; 
+}
+
+.italiano{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bottom_items, .italiano, .fa-brands{
+    color: white;
+    padding: 5px;
+}
 .prodotto, .compagnia, .risorse, .norme{
     width: calc(100% / 6);
-    min-height: 500px;
+    max-height: 500px;
     list-style-type: none;
-    /*DEBUG*/
-    background-color: aquamarine;
-    border: 1px dashed rgb(255, 255, 255);
+    color: rgb(109, 78, 221);
+    font-weight: bold;
+    padding-top: 45px;
 }
+
+.collegamenti{
+    color: rgb(109, 78, 221);
+
+}
+
 
 .bottom_footer{
     margin-top: 10px;
@@ -221,6 +239,36 @@ footer{
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px;
-    /*DEBUG*/
-    background-color: aquamarine;
+}
+
+/*buttons*/
+
+#download{
+    padding: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#openit{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-weight: bold;
+}
+.login{
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.signin{
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(100, 85, 233);
+    border-radius: 50px;
 }
